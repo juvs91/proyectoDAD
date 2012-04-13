@@ -1,0 +1,53 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            tr#renglon{
+             border-style:solid;
+             border-width:2px;
+             border-color:black;
+            }
+            table#contenedor{
+             border-style:solid;
+             border-width:2px;
+             border-color:black;
+            }
+            td#celda{
+             border-style:solid;
+             border-width:2px;
+             border-color:black;
+            }
+        </style>
+        <script type="text/javascript">
+            function agregaX(id){
+                docment.getElementById(id).innerHTML="X";
+            }
+        </script>
+    </head>
+    <body>
+        <table id="contenedor" class="contenedor">
+            <tr id="renglon1" class="renglon">
+                <td id="celda1" class="celda" onclick="agregaX(this.id)">celda1</td>
+                <td id="celda2" class="celda" onclick="agregaX(this.id)">celda2</td>
+                <td id="celda3" class="celda" onclick="agregaX(this.id)">celda3</td>
+            </tr>
+            <tr id="regnlon2" class="renglon">
+                <td id="celda4" class="celda" onclick="agregaX(this.id)">celda4</td>
+                <td id="celda5" class="celda" onclick="agregaX(this.id)">celda5</td>
+                <td id="celda6" class="celda" onclick="agregaX(this.id)">celda6</td>
+            </tr>
+            <tr id="renglon3" class="renglon">
+                <td id="celda7" class="celda" onclick="agregaX(this.id)">celda7</td> 
+                <td id="celda8" class="celda" onclick="agregaX(this.id)">celda8</td>                
+                <td id="celda9" class="celda" onclick="agregaX(this.id)">celda9</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
